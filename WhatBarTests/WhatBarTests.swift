@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import WhatBar
+@testable import juscanit
 
 final class WhatBarTests: XCTestCase {
 

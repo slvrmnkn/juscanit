@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CodeScanner
 
 @main
 struct WhatBarApp: App {

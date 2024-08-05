@@ -14,6 +14,7 @@
 		E9BA67EC2C5CD5C60023E5EA /* WhatBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67EB2C5CD5C60023E5EA /* WhatBarTests.swift */; };
 		E9BA67F62C5CD5C60023E5EA /* WhatBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F52C5CD5C60023E5EA /* WhatBarUITests.swift */; };
 		E9BA67F82C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F72C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift */; };
+		E9BA68062C5CEF810023E5EA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = E9BA68052C5CEF810023E5EA /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9BA67D72C5CD5C40023E5EA /* WhatBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA67D72C5CD5C40023E5EA /* juscanit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juscanit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BA67DA2C5CD5C40023E5EA /* WhatBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarApp.swift; sourceTree = "<group>"; };
 		E9BA67DC2C5CD5C40023E5EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9BA67DE2C5CD5C50023E5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BA67E12C5CD5C50023E5EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E9BA67E72C5CD5C60023E5EA /* WhatBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA67E72C5CD5C60023E5EA /* juscanitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juscanitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BA67EB2C5CD5C60023E5EA /* WhatBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarTests.swift; sourceTree = "<group>"; };
-		E9BA67F12C5CD5C60023E5EA /* WhatBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BA67F12C5CD5C60023E5EA /* juscanitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juscanitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BA67F52C5CD5C60023E5EA /* WhatBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarUITests.swift; sourceTree = "<group>"; };
 		E9BA67F72C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BA68062C5CEF810023E5EA /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,9 +86,9 @@
 		E9BA67D82C5CD5C40023E5EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9BA67D72C5CD5C40023E5EA /* WhatBar.app */,
-				E9BA67E72C5CD5C60023E5EA /* WhatBarTests.xctest */,
-				E9BA67F12C5CD5C60023E5EA /* WhatBarUITests.xctest */,
+				E9BA67D72C5CD5C40023E5EA /* juscanit.app */,
+				E9BA67E72C5CD5C60023E5EA /* juscanitTests.xctest */,
+				E9BA67F12C5CD5C60023E5EA /* juscanitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9BA67D62C5CD5C40023E5EA /* WhatBar */ = {
+		E9BA67D62C5CD5C40023E5EA /* juscanit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9BA67FB2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBar" */;
+			buildConfigurationList = E9BA67FB2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanit" */;
 			buildPhases = (
 				E9BA67D32C5CD5C40023E5EA /* Sources */,
 				E9BA67D42C5CD5C40023E5EA /* Frameworks */,
@@ -142,14 +144,17 @@
 			);
 			dependencies = (
 			);
-			name = WhatBar;
+			name = juscanit;
+			packageProductDependencies = (
+				E9BA68052C5CEF810023E5EA /* CodeScanner */,
+			);
 			productName = WhatBar;
-			productReference = E9BA67D72C5CD5C40023E5EA /* WhatBar.app */;
+			productReference = E9BA67D72C5CD5C40023E5EA /* juscanit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9BA67E62C5CD5C60023E5EA /* WhatBarTests */ = {
+		E9BA67E62C5CD5C60023E5EA /* juscanitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9BA67FE2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBarTests" */;
+			buildConfigurationList = E9BA67FE2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanitTests" */;
 			buildPhases = (
 				E9BA67E32C5CD5C60023E5EA /* Sources */,
 				E9BA67E42C5CD5C60023E5EA /* Frameworks */,
@@ -160,14 +165,14 @@
 			dependencies = (
 				E9BA67E92C5CD5C60023E5EA /* PBXTargetDependency */,
 			);
-			name = WhatBarTests;
+			name = juscanitTests;
 			productName = WhatBarTests;
-			productReference = E9BA67E72C5CD5C60023E5EA /* WhatBarTests.xctest */;
+			productReference = E9BA67E72C5CD5C60023E5EA /* juscanitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9BA67F02C5CD5C60023E5EA /* WhatBarUITests */ = {
+		E9BA67F02C5CD5C60023E5EA /* juscanitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9BA68012C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBarUITests" */;
+			buildConfigurationList = E9BA68012C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanitUITests" */;
 			buildPhases = (
 				E9BA67ED2C5CD5C60023E5EA /* Sources */,
 				E9BA67EE2C5CD5C60023E5EA /* Frameworks */,
@@ -178,9 +183,9 @@
 			dependencies = (
 				E9BA67F32C5CD5C60023E5EA /* PBXTargetDependency */,
 			);
-			name = WhatBarUITests;
+			name = juscanitUITests;
 			productName = WhatBarUITests;
-			productReference = E9BA67F12C5CD5C60023E5EA /* WhatBarUITests.xctest */;
+			productReference = E9BA67F12C5CD5C60023E5EA /* juscanitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9BA67D22C5CD5C40023E5EA /* Build configuration list for PBXProject "WhatBar" */;
+			buildConfigurationList = E9BA67D22C5CD5C40023E5EA /* Build configuration list for PBXProject "juscanit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,13 +220,16 @@
 				Base,
 			);
 			mainGroup = E9BA67CE2C5CD5C40023E5EA;
+			packageReferences = (
+				E9BA68042C5CEF810023E5EA /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = E9BA67D82C5CD5C40023E5EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9BA67D62C5CD5C40023E5EA /* WhatBar */,
-				E9BA67E62C5CD5C60023E5EA /* WhatBarTests */,
-				E9BA67F02C5CD5C60023E5EA /* WhatBarUITests */,
+				E9BA67D62C5CD5C40023E5EA /* juscanit */,
+				E9BA67E62C5CD5C60023E5EA /* juscanitTests */,
+				E9BA67F02C5CD5C60023E5EA /* juscanitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		E9BA67E92C5CD5C60023E5EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9BA67D62C5CD5C40023E5EA /* WhatBar */;
+			target = E9BA67D62C5CD5C40023E5EA /* juscanit */;
 			targetProxy = E9BA67E82C5CD5C60023E5EA /* PBXContainerItemProxy */;
 		};
 		E9BA67F32C5CD5C60023E5EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9BA67D62C5CD5C40023E5EA /* WhatBar */;
+			target = E9BA67D62C5CD5C40023E5EA /* juscanit */;
 			targetProxy = E9BA67F22C5CD5C60023E5EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,6 +433,7 @@
 				DEVELOPMENT_TEAM = KLGCXC7B59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to scan barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +463,7 @@
 				DEVELOPMENT_TEAM = KLGCXC7B59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera access is needed to scan barcodes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +498,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juscanit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/juscanit";
 			};
 			name = Debug;
 		};
@@ -508,7 +518,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juscanit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/juscanit";
 			};
 			name = Release;
 		};
@@ -551,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9BA67D22C5CD5C40023E5EA /* Build configuration list for PBXProject "WhatBar" */ = {
+		E9BA67D22C5CD5C40023E5EA /* Build configuration list for PBXProject "juscanit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BA67F92C5CD5C60023E5EA /* Debug */,
@@ -560,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9BA67FB2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBar" */ = {
+		E9BA67FB2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BA67FC2C5CD5C60023E5EA /* Debug */,
@@ -569,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9BA67FE2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBarTests" */ = {
+		E9BA67FE2C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BA67FF2C5CD5C60023E5EA /* Debug */,
@@ -578,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9BA68012C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "WhatBarUITests" */ = {
+		E9BA68012C5CD5C60023E5EA /* Build configuration list for PBXNativeTarget "juscanitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9BA68022C5CD5C60023E5EA /* Debug */,
@@ -588,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9BA68042C5CEF810023E5EA /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9BA68052C5CEF810023E5EA /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9BA68042C5CEF810023E5EA /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9BA67CF2C5CD5C40023E5EA /* Project object */;
 }
