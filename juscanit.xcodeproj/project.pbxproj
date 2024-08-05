@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9BA67DB2C5CD5C40023E5EA /* WhatBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67DA2C5CD5C40023E5EA /* WhatBarApp.swift */; };
+		E9BA67DB2C5CD5C40023E5EA /* JuscanitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67DA2C5CD5C40023E5EA /* JuscanitApp.swift */; };
 		E9BA67DD2C5CD5C40023E5EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67DC2C5CD5C40023E5EA /* ContentView.swift */; };
 		E9BA67DF2C5CD5C50023E5EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BA67DE2C5CD5C50023E5EA /* Assets.xcassets */; };
 		E9BA67E22C5CD5C50023E5EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BA67E12C5CD5C50023E5EA /* Preview Assets.xcassets */; };
-		E9BA67EC2C5CD5C60023E5EA /* WhatBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67EB2C5CD5C60023E5EA /* WhatBarTests.swift */; };
-		E9BA67F62C5CD5C60023E5EA /* WhatBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F52C5CD5C60023E5EA /* WhatBarUITests.swift */; };
-		E9BA67F82C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F72C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift */; };
+		E9BA67EC2C5CD5C60023E5EA /* JuscanitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67EB2C5CD5C60023E5EA /* JuscanitTests.swift */; };
+		E9BA67F62C5CD5C60023E5EA /* JuscanitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F52C5CD5C60023E5EA /* JuscanitUITests.swift */; };
+		E9BA67F82C5CD5C60023E5EA /* JuscanitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA67F72C5CD5C60023E5EA /* JuscanitUITestsLaunchTests.swift */; };
 		E9BA68062C5CEF810023E5EA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = E9BA68052C5CEF810023E5EA /* CodeScanner */; };
 /* End PBXBuildFile section */
 
@@ -36,15 +36,15 @@
 
 /* Begin PBXFileReference section */
 		E9BA67D72C5CD5C40023E5EA /* juscanit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juscanit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BA67DA2C5CD5C40023E5EA /* WhatBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarApp.swift; sourceTree = "<group>"; };
+		E9BA67DA2C5CD5C40023E5EA /* JuscanitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuscanitApp.swift; sourceTree = "<group>"; };
 		E9BA67DC2C5CD5C40023E5EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9BA67DE2C5CD5C50023E5EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BA67E12C5CD5C50023E5EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9BA67E72C5CD5C60023E5EA /* juscanitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juscanitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BA67EB2C5CD5C60023E5EA /* WhatBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarTests.swift; sourceTree = "<group>"; };
+		E9BA67EB2C5CD5C60023E5EA /* JuscanitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuscanitTests.swift; sourceTree = "<group>"; };
 		E9BA67F12C5CD5C60023E5EA /* juscanitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juscanitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BA67F52C5CD5C60023E5EA /* WhatBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarUITests.swift; sourceTree = "<group>"; };
-		E9BA67F72C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9BA67F52C5CD5C60023E5EA /* JuscanitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuscanitUITests.swift; sourceTree = "<group>"; };
+		E9BA67F72C5CD5C60023E5EA /* JuscanitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuscanitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +76,9 @@
 		E9BA67CE2C5CD5C40023E5EA = {
 			isa = PBXGroup;
 			children = (
-				E9BA67D92C5CD5C40023E5EA /* WhatBar */,
-				E9BA67EA2C5CD5C60023E5EA /* WhatBarTests */,
-				E9BA67F42C5CD5C60023E5EA /* WhatBarUITests */,
+				E9BA67D92C5CD5C40023E5EA /* Juscanit */,
+				E9BA67EA2C5CD5C60023E5EA /* JuscanitTests */,
+				E9BA67F42C5CD5C60023E5EA /* JuscanitUITests */,
 				E9BA67D82C5CD5C40023E5EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,15 +93,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9BA67D92C5CD5C40023E5EA /* WhatBar */ = {
+		E9BA67D92C5CD5C40023E5EA /* Juscanit */ = {
 			isa = PBXGroup;
 			children = (
-				E9BA67DA2C5CD5C40023E5EA /* WhatBarApp.swift */,
+				E9BA67DA2C5CD5C40023E5EA /* JuscanitApp.swift */,
 				E9BA67DC2C5CD5C40023E5EA /* ContentView.swift */,
 				E9BA67DE2C5CD5C50023E5EA /* Assets.xcassets */,
 				E9BA67E02C5CD5C50023E5EA /* Preview Content */,
 			);
-			path = WhatBar;
+			path = Juscanit;
 			sourceTree = "<group>";
 		};
 		E9BA67E02C5CD5C50023E5EA /* Preview Content */ = {
@@ -112,21 +112,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E9BA67EA2C5CD5C60023E5EA /* WhatBarTests */ = {
+		E9BA67EA2C5CD5C60023E5EA /* JuscanitTests */ = {
 			isa = PBXGroup;
 			children = (
-				E9BA67EB2C5CD5C60023E5EA /* WhatBarTests.swift */,
+				E9BA67EB2C5CD5C60023E5EA /* JuscanitTests.swift */,
 			);
-			path = WhatBarTests;
+			path = JuscanitTests;
 			sourceTree = "<group>";
 		};
-		E9BA67F42C5CD5C60023E5EA /* WhatBarUITests */ = {
+		E9BA67F42C5CD5C60023E5EA /* JuscanitUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E9BA67F52C5CD5C60023E5EA /* WhatBarUITests.swift */,
-				E9BA67F72C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift */,
+				E9BA67F52C5CD5C60023E5EA /* JuscanitUITests.swift */,
+				E9BA67F72C5CD5C60023E5EA /* JuscanitUITestsLaunchTests.swift */,
 			);
-			path = WhatBarUITests;
+			path = JuscanitUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BA67DD2C5CD5C40023E5EA /* ContentView.swift in Sources */,
-				E9BA67DB2C5CD5C40023E5EA /* WhatBarApp.swift in Sources */,
+				E9BA67DB2C5CD5C40023E5EA /* JuscanitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BA67EC2C5CD5C60023E5EA /* WhatBarTests.swift in Sources */,
+				E9BA67EC2C5CD5C60023E5EA /* JuscanitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9BA67F82C5CD5C60023E5EA /* WhatBarUITestsLaunchTests.swift in Sources */,
-				E9BA67F62C5CD5C60023E5EA /* WhatBarUITests.swift in Sources */,
+				E9BA67F82C5CD5C60023E5EA /* JuscanitUITestsLaunchTests.swift in Sources */,
+				E9BA67F62C5CD5C60023E5EA /* JuscanitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +429,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhatBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Juscanit/Preview Content\"";
 				DEVELOPMENT_TEAM = KLGCXC7B59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +459,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WhatBar/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Juscanit/Preview Content\"";
 				DEVELOPMENT_TEAM = KLGCXC7B59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

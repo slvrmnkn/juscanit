@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class WhatBarUITestsLaunchTests: XCTestCase {
+final class JuscanitUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

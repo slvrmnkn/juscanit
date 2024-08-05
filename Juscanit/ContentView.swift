@@ -24,7 +24,7 @@ struct ContentView: View {
                 isShowingScanner = true
             }.controlSize(.large).buttonStyle(.borderedProminent)
 
-            Text("WhatBar scanner")
+            Text("Click to scan bar codes")
                 .navigationTitle(title)
                 .toolbar {
                     Button("About", systemImage: "info.square") {
