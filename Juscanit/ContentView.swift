@@ -33,7 +33,7 @@ struct ContentView: View {
                     
                 }
                 .sheet(isPresented: $isShowingScanner)  {
-                    CodeScannerView(codeTypes: [.qr, .ean13, .upce, .ean8, .code39, .code93, .code128, .itf14, .codabar, .gs1DataBar, .dataMatrix, .pdf417, .microQR, .microPDF417, .code39Mod43,.gs1DataBarExpanded, .gs1DataBarLimited], simulatedData: "whatbar.demo.text", completion: handleScan)
+                    CodeScannerView(codeTypes: [.qr, .ean13, .upce, .ean8, .code39, .code93, .code128, .itf14, .codabar, .gs1DataBar, .dataMatrix, .pdf417, .microQR, .microPDF417, .code39Mod43,.gs1DataBarExpanded, .gs1DataBarLimited], simulatedData: "juscanit.demo.text", completion: handleScan)
                 }
                 .sheet(isPresented: $isShowingResults) {
                     SheetView()
@@ -73,14 +73,11 @@ struct SheetView: View {
     var body: some View {
         Text("Type: " + AppData.shared.type + "\n\n" +
              "Raw scanned data:\n\n" + AppData.shared.results.description).font(.body.monospaced()).padding()
+            .frame(maxWidth: .infinity)
         Button("Close") {
             dismiss()
         }
-        .font(.title2)
-        .padding()
-        .background(.white)
-        .buttonBorderShape(.circle)
-    }
+        .controlSize(.large).buttonStyle(.borderedProminent)   }
 }
 
 struct AboutView: View {
@@ -94,7 +91,6 @@ struct AboutView: View {
         .font(.title2)
         .padding()
         .background(.white)
-        .buttonBorderShape(.circle)
     }
 }
 

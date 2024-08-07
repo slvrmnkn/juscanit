@@ -1,6 +1,6 @@
 //
-//  WhatBarUITests.swift
-//  WhatBarUITests
+//  JuscanitUITests.swift
+//  JuscanitUITests
 //
 //  Created by Thomas Aardal on 02/08/2024.
 //
